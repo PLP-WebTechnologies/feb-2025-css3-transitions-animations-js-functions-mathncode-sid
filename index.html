@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Animation + localStorage</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Theme Switcher & Animated Card</h1>
+  </header>
+
+  <main>
+    <button id="animateBtn">Click Me!</button>
+    <br><br>
+    <label for="themeSelect">Choose Theme:</label>
+    <select id="themeSelect">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+
+    <section id="cardContainer">
+      <div class="card" id="themeCard">
+        <div class="card-front">
+          <h2>Front Side</h2>
+          <p>This is the front of the card.</p>
+        </div>
+        <div class="card-back">
+          <h2>Back Side</h2>
+          <p>This is the back of the card.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
